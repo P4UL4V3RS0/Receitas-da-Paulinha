@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(250, 217, 168, 0.616);
+    margin: 0;
+}
+h1{
+    color: #F3BB40;
+    font-size: 60pt;
+}
+h2{ 
+    color: #7F3035;
+    text-align: left;
+    font-size: 30pt;
+    margin: 20px;
+}
+.fruta{
+    display: block;
+    background-color: #f7cf49;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    align-items: center;
+    width: 30%;
+}
+header{
+    background-color: #7F3035;
+    padding: 20px;
+    text-align: center;
+}
+main{
+    text-align: center;
+    padding: 20px;
+}
+.info-container{
+    display: flex;
+    background-color: #f7cf49;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+}
+.texto{
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.frutas{
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 80%;
+    min-width: 30%;
+}
+.pag{
+    color: black;
+    font-size: 30pt;
+    font-size: clamp(30px, 5vw, 10px);
+
+}
+li{
+    font-size: 20pt;
+    text-align: left;
+}
+.rodape{
+    margin-top: 60px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+    background-color: #7F3035;
+    color: #F3BB40;
+    font-size: 25pt;
+}
+.item p{
+    padding-top: 40px;
+    font-size: 30pt;
+}
+/* outras páginas */
+.titulo-principal{
+    font-size: 30pt;
+}
+.pagextra{
+    font-size: 20pt;
+    text-align: left;
+}
+.subtitulo-pag-extra{
+    font-size: 22pt;
+}
+li{
+    font-size: 15pt;
+}
+.voltar{
+    color: #F3BB40;
+    font-size: 18px;
+    text-decoration: none;
+}
+.rodape-pag-extra{
+    margin-top: 60px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 20px;
+    background-color: #7F3035;
+    color: #F3BB40;
+}
