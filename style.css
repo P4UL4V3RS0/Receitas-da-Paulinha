@@ -33,6 +33,10 @@ main{
     text-align: center;
     padding: 20px;
 }
+.item p{
+    padding-top: 40px;
+    font-size: 30pt;
+}
 .info-container{
     display: flex;
     background-color: #f7cf49;
@@ -60,9 +64,10 @@ main{
     margin-right: auto;
     margin-top: 20px;
     text-align: center;
-    width: 80%;
-    max-width: 80%;
+    max-width: 40%;
     min-width: 30%;
+    
+   -
 }
 .pag{
     color: black;
@@ -84,11 +89,9 @@ li{
     color: #F3BB40;
     font-size: 25pt;
 }
-.item p{
-    padding-top: 40px;
-    font-size: 30pt;
-}
+
 /* outras páginas */
+
 .titulo-principal{
     font-size: 30pt;
 }
